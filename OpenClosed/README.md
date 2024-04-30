@@ -1,0 +1,3 @@
+O princípio aberto/fechado define que uma classe deve estar aberta para extensões mas fechada para modificações.
+
+Neste exemplo a classe IPVA possui duas funções, calcularIPVAJeepRenegade e calcularIPVAEchoSport, e isso feria o princípio pois caso o usuário tivesse a intenção de calcular o ipva de qualquer outro carro além destes dois, não era possivel, então para corrigir isso foi criado uma única função calcularIPVA, que utiliza as informações da própria classe carro para fazer a destinção, sendo possivel que assim qualquer carro com valor venal pudesse ter seu IPVA calculado.

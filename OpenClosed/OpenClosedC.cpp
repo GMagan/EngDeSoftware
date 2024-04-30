@@ -5,11 +5,13 @@ using namespace std;
 
 class IPVA{
     public:
-        float calcularIPVAJeepRenegade(){
-            /*calculo e retorno*/
-        }
-
-        float calcularIPVAEchoSport(){
-            /*calculo e retorno*/
+        float calcularIPVA(Carro carro){
+            float valor = carro.valorVenal();
+            /*calculo e retorna*/
         }
 };
+
+int main(){
+    calcularIPVA(jeepRenegade);
+    calcularIPVA(echoSport);
+}

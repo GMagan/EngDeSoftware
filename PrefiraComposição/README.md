@@ -1,0 +1,3 @@
+O princípio de preferir composição a herança define exatamente o que seu nome indica, que uma classe ter algo é melhor do que ela ser algo;
+
+Neste caso a classe está ferindo o princípio pois ao definir o IPVA como sendo um imposto, ele herda todas as caracteristicas de um, mesmo podendo variar muito de outros como imposto de renda. Para concertar isso a IPVA foi definido como uma classe separada, e depois foi adicionada ao conjunto de impostos, que também é uma classe.

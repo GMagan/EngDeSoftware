@@ -3,7 +3,10 @@
 
 using namespace std;
 
-float calcularIPVA(Carro carro){
-    float valor = carro.valorVenal();
-    /*calculo e retorna*/
-}
+class IPVA{
+    public:
+        float calcularIPVA(Carro carro){
+            float valor = carro.valorVenal();
+            /*calculo e retorna*/
+        }
+};
