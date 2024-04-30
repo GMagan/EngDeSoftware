@@ -7,4 +7,5 @@ class Imposto{};
 
 int main(){
     Imposto ipva;
+    Imposto impostoDeRenda;
 }
