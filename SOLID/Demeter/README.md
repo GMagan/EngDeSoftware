@@ -1,3 +1,0 @@
-O principio de Demeter promove que seja evitado longas "cadeias" de chamadas de métodos
-
-Neste caso o princípio está sendo ferido pois ele pede o cliente para depois usar essa informação para pegar o modelo do carro e então usar essa informação para pegar o valor venal, na versão concertada eu fiz para que ele pedisse apenas o modelo do carro para já pegar o valor venal, sem precisar passar pela informação do cliente.
